@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>My Weather App</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌤️ Weather Check</h1>
+    <select id="citySelect">
+       <option value="">-- pick a city --</option>
+       <option value="Casablanca">Casablanca</option>
+       <option value="Paris">Paris</option>
+       <option value="London">London</option>
+       <option value="New York">New York</option>
+       <option value="Tokyo">Tokyo</option>
+    </select>
+         <div id="spinner" style="display: none;">🌀 loading... </div>
+     <button onclick="getWeather()">Search></button>
+
+         <div id="weatherBox"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
